@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineFirm Gallery - Film Collection & Cinematic Projects</title>
+    <link rel="stylesheet" href="./menu/assets/dark.css">
+    <link rel="stylesheet" href="./gallery/assets/gallery.css">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Explore CineFirm's film gallery showcasing our diverse movie collection, cinematic projects, and creative film portfolio. View our latest filmography and cinematic works.">
+    <meta name="keywords" content="Film Gallery, Movie Collection, CineFirm Portfolio, Cinematic Projects, Filmography, View CineFirm's film collection, Creative film portfolio, Latest cinematic projects by CineFirm">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cinefirm.com/gallery">
+    <meta property="og:title" content="CineFirm Gallery - Film Collection & Cinematic Projects">
+    <meta property="og:description" content="Explore CineFirm's film gallery showcasing our diverse movie collection, cinematic projects, and creative film portfolio. View our latest filmography and cinematic works.">
+    <meta property="og:image" content="https://www.cinefirm.com/gallery-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.cinefirm.com/gallery">
+    <meta property="twitter:title" content="CineFirm Gallery - Film Collection & Cinematic Projects">
+    <meta property="twitter:description" content="Explore CineFirm's film gallery showcasing our diverse movie collection, cinematic projects, and creative film portfolio. View our latest filmography and cinematic works.">
+    <meta property="twitter:image" content="https://www.cinefirm.com/gallery-preview.jpg">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="prefetch" href="./index.html">
+    <link rel="prefetch" href="./about.html">
+    <link rel="prefetch" href="./gallery.html">
+    <link rel="prefetch" href="./terms.html">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "CineFirm Gallery",
+      "description": "Explore our collection of cinematic works, including films, creative projects, & our latest filmography.",
+      "url": "https://www.cinefirm.com/gallery",
+      "image": [
+        "https://www.cinefirm.com/images/film1.jpg",
+        "https://www.cinefirm.com/images/film2.jpg"
+      ],
+      "about": {
+        "@type": "CreativeWork",
+        "name": "CineFirm's Film Collection",
+        "description": "A showcase of CineFirm's diverse movie collection & cinematic projects."
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+
+    <div class="menu-toggle closed">
+      <div class="menu-toggle-icon">
+        <div class="hamburger">
+          <div class="menu-bar" data-position="top"></div>
+          <div class="menu-bar" data-position="bottom"></div>
+        </div>
+      </div>
+      <div class="menu-copy">
+        <p>Home</p>
+      </div>
+    </div>
+
+    <div class="menu">
+        <div class="col col-1">
+          <div class="menu-logo">
+            <a id="menu-logo-mobile" href="./index.html">CineFirm</a>
+          </div>
+          <div class="links">
+            <div class="link"><a href="./portfolio.html">Portfolio</a></div>
+            <div class="link"><a href="./gallery.html">Gallery</a></div>
+            <div class="link"><a href="./terms.html">Terms</a></div>
+            <div class="link"><a href="./404.html">404</a></div>
+          </div>
+          <div class="video-wrapper">
+            <video autoplay muted loop>
+              <source src="./menu/assets/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col col-2">
+          <div class="socials">
+            <div class="sub-col">
+              <p>motinivas</p>
+              <p>1A, 3rd Cross Rd</p>
+              <p>Srinivagilu, Chandra Reddy Layout</p>
+              <p> S T Bed Layout</p>
+              <p>Ejipura, Bengaluruy</p>
+              <p>Karnataka - 560095</p>
+              <br />
+              <p>contact@cinefirm.in</p>
+              <p> 098858 59637</p>
+            </div>
+            <div class="sub-col">
+              <p>Instagram</p>
+              <p>LinkedIn</p>
+              <p>Twitter</p>
+              <p>Facebook</p>
+              <p>Dribble</p>
+              <p>Pintrest</p>
+              <br />
+              <p>01 62 31 82 42</p>
+            </div>
+          </div>
+
+          <div class="header-menu">
+            <h3 class="header-menu-h3">CF</h3>
+          </div>
+        </div>
+    </div>
+
+    <div id="loading">
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+      <dotlottie-player src="https://lottie.host/5a587109-7499-4d10-831e-6912a8fd16ec/TooePkuWNA.lottie" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+    </div>
+
+    <div class="marquee_masory_gallery_layout">
+        <div class="marquee_masory_gallery">
+            <div class="gallery_1">
+                <img class="marquee-item-1" src="gallery/assets/landscape/1.webp" alt="" srcset="">
+                <img class="marquee-item-1" src="gallery/assets/portrait/1.webp" alt="" srcset="">
+                <img class="marquee-item-1" src="gallery/assets/landscape/2.webp" alt="" srcset="">
+                <img class="marquee-item-1" src="gallery/assets/portrait/2.webp" alt="" srcset="">
+                <img class="marquee-item-1" src="gallery/assets/landscape/3.webp" alt="" srcset="">
+            </div>
+            <div class="gallery_2">
+                <img class="marquee-item-2" src="gallery/assets/portrait/3.webp" alt="" srcset="">
+                <img class="marquee-item-2" src="gallery/assets/landscape/4.webp" alt="" srcset="">
+                <img class="marquee-item-2" src="gallery/assets/portrait/4.webp" alt="" srcset="">
+                <img class="marquee-item-2" src="gallery/assets/landscape/5.webp" alt="" srcset="">
+                <img class="marquee-item-2" src="gallery/assets/portrait/5.webp" alt="" srcset="">
+            </div>
+            <div class="gallery_3">
+                <img class="marquee-item-3" src="gallery/assets/landscape/6.webp" alt="" srcset="">
+                <img class="marquee-item-3" src="gallery/assets/portrait/6.webp" alt="" srcset="">
+                <img class="marquee-item-3" src="gallery/assets/landscape/7.webp" alt="" srcset="">
+                <img class="marquee-item-3" src="gallery/assets/portrait/7.webp" alt="" srcset="">
+                <img class="marquee-item-3" src="gallery/assets/landscape/8.webp" alt="" srcset="">
+            </div>
+            <div class="gallery_4">
+                <img class="marquee-item-4" src="gallery/assets/portrait/8.webp" alt="" srcset="">
+                <img class="marquee-item-4" src="gallery/assets/landscape/9.webp" alt="" srcset="">
+                <img class="marquee-item-4" src="gallery/assets/portrait/9.webp" alt="" srcset="">
+                <img class="marquee-item-4" src="gallery/assets/landscape/10.webp" alt="" srcset="">
+                <img class="marquee-item-4" src="gallery/assets/portrait/10.webp" alt="" srcset="">
+            </div>
+            <div id="debug"></div>
+        </div>
+    </div>
+  
+
+  
+    <script src="./menu/assets/dark.js"></script>
+    <script src="./gallery/assets/gallery.js"></script>
+
+
+</body>
+</html>
