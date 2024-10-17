@@ -46,25 +46,63 @@
   <link rel="prefetch" href="./index.html">
   <link rel="prefetch" href="./gallery.html">
   <link rel="prefetch" href="./terms.html">
+  <link rel="canonical" href="https://www.cinefirm.com/portfolio" />
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "CineFirm Portfolio",
-    "description": "Showcase of our video production & creative projects. Explore our top film production work & innovative film projects.",
-    "url": "https://www.cinefirm.com/portfolio",
-    "creator": {
-      "@type": "Organization",
-      "name": "CineFirm"
-    },
-    "about": {
-      "@type": "CreativeWork",
-      "name": "Video Production Portfolio",
-      "description": "A collection of CineFirm's best film production examples & creative projects."
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.cinefirm.com/portfolio/#webpage",
+          "url": "https://www.cinefirm.com/portfolio",
+          "name": "CineFirm Portfolio - Video Production & Creative Projects Showcase",
+          "description": "Explore CineFirm's video portfolio showcasing our top film production work, creative projects, and examples of our expertise. Dive into our showcase of innovative film projects and video production excellence.",
+          "isPartOf": {
+            "@id": "https://www.cinefirm.com/#website"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://www.cinefirm.com/portfolio/#creativework",
+          "name": "CineFirm Portfolio",
+          "description": "Showcase of our video production & creative projects. Explore our top film production work & innovative film projects.",
+          "url": "https://www.cinefirm.com/portfolio",
+          "creator": {
+            "@type": "Organization",
+            "name": "CineFirm"
+          },
+          "about": {
+            "@type": "CreativeWork",
+            "name": "Video Production Portfolio",
+            "description": "A collection of CineFirm's best film production examples & creative projects."
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.cinefirm.com/portfolio/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://www.cinefirm.com/",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://www.cinefirm.com/portfolio/",
+                "name": "Portfolio"
+              }
+            }
+          ]
+        }
+      ]
     }
-  }
-  </script>
+    </script>
 
 </head>
 <body>
@@ -158,11 +196,11 @@
         </div>
 
         <div class="slider-preview">
-          <div class="preview active"><img src="./portfolio/assets/img1.webp" alt="" /></div>
-          <div class="preview"><img src="./portfolio/assets/img2.webp" alt="" /></div>
-          <div class="preview"><img src="./portfolio/assets/img3.webp" alt="" /></div>
-          <div class="preview"><img src="./portfolio/assets/img4.webp" alt="" /></div>
-          <div class="preview"><img src="./portfolio/assets/img5.webp" alt="" /></div>
+          <div class="preview active"><img src="./portfolio/assets/img1.webp" alt="CineFirm Yuki project preview" loading="lazy" /></div>
+          <div class="preview"><img src="./portfolio/assets/img2.webp" alt="CineFirm Boba Bhai project preview" loading="lazy" /></div>
+          <div class="preview"><img src="./portfolio/assets/img3.webp" alt="CineFirm Induldge project preview" loading="lazy" /></div>
+          <div class="preview"><img src="./portfolio/assets/img4.webp" alt="CineFirm Yuki Again project preview" loading="lazy" /></div>
+          <div class="preview"><img src="./portfolio/assets/img5.webp" alt="CineFirm Royal project preview" loading="lazy" /></div>
         </div>
 
         <div class="slider-indicators">

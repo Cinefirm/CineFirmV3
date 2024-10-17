@@ -50,19 +50,57 @@
     <link rel="prefetch" href="./terms.html">
 
     <!-- Home Page Schema -->
+    
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "CineFirm",
-        "description": "CineFirm is a film production company offering creative media & video production services.",
-        "url": "https://www.cinefirm.com",
-        "publisher": {
-          "@type": "Organization",
-          "name": "CineFirm",
-          "logo": "https://www.cinefirm.com/logo.png"
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.cinefirm.in/#website",
+              "url": "https://www.cinefirm.in/",
+              "name": "CineFirm",
+              "description": "Expert photography, videography, creative direction, branding, and ad services for agencies",
+              "potentialAction": [{
+                "@type": "SearchAction",
+                "target": "https://www.cinefirm.in/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.cinefirm.in/#organization",
+              "name": "CineFirm",
+              "url": "https://www.cinefirm.in/",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.cinefirm.in/logo.png"
+              },
+              "sameAs": [
+                "https://www.instagram.com/cinefirm",
+                "https://www.linkedin.com/company/cinefirm",
+                "https://twitter.com/cinefirm",
+                "https://www.facebook.com/cinefirm"
+              ]
+            },
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://www.cinefirm.in/#localbusiness",
+              "name": "CineFirm",
+              "image": "https://www.cinefirm.in/logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1A, 3rd Cross Rd, Srinivagilu, Chandra Reddy Layout, S T Bed Layout, Ejipura",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka",
+                "postalCode": "560095",
+                "addressCountry": "IN"
+              },
+              "telephone": "+919885859637",
+              "priceRange": "$$"
+            }
+          ]
         }
-      }
     </script>
     
 </head>
