@@ -218,6 +218,7 @@
   font-optical-sizing: auto;
   font-size: 12px;
   font-weight: 400;
+  cursor: pointer;
   }
 
   .header-menu .header-menu-h3 {
@@ -236,6 +237,11 @@
   display: inline-block;
   transform: scale(0.75) translateY(500px) rotateY(90deg);
   transform-origin: bottom;
+  }
+
+  #googlemaps,#callNumber
+  {
+    cursor: pointer;
   }
 
   @media (max-width: 900px) {
