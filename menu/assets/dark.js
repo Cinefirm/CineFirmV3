@@ -125,9 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       }
     });
-  });
-
-
+  }); 
   function openSocialMedia(platform) {
     const urls = {
       instagram: "https://www.instagram.com/cinefirm_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",

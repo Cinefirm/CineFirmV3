@@ -15,6 +15,7 @@ font-optical-sizing: auto;
 
 .spline_container {
  padding: 0;
+ pointer-events: none;
  margin: 0;
 }
 
