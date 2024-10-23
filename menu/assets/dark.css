@@ -14,7 +14,7 @@
   color: #000;
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-size: 60px;
+  font-size: xx-large;
   font-weight: bold;
   }
 
@@ -138,9 +138,10 @@
   .menu {
   position: fixed;
   top: 0;
+  overflow: hidden;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   z-index: 98;
   background-color: #0f0f0f;
@@ -213,10 +214,10 @@
   color: #fff;
   transform: translateY(30px);
   opacity: 0;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-size: 12px;
+  font-size: medium;
   font-weight: 400;
   cursor: pointer;
   }
@@ -226,7 +227,7 @@
   text-transform: uppercase;
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-size: 500px;
+  font-size: 28em;
   font-weight: bold;
   line-height: 100%;
   height: 400px;
@@ -246,7 +247,7 @@
 
   @media (max-width: 900px) {
     .col-1 {
-        flex: 2;
+        flex: 3;
         align-items: flex-start;
     }
 
@@ -265,8 +266,9 @@
     }
 
     .header-menu .header-menu-h3 {
-              display: none;
-          }
+      display: none;
+    }
+
 
     #menu-logo-mobile {
           text-decoration: none;
