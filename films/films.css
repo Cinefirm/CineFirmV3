@@ -37,7 +37,7 @@ html,body
     left: 0;
     width: 100%;
     height: 100%;
-    transform: rotate(26deg); /* Rotate the viewer */
+    transform: rotate(226deg); /* Rotate the viewer */
     transform-origin: center; /* Ensure rotation is centered */
 }
 
@@ -50,6 +50,7 @@ html,body
     width: 100%;
     height: 100%;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     flex-direction: row;
