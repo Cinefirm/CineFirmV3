@@ -29,3 +29,14 @@ html,body
     font-optical-sizing: auto;
     overflow-x: hidden;
 }
+
+/* Container for the spline viewer */
+.spline-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(226deg); /* Rotate the viewer */
+    transform-origin: center; /* Ensure rotation is centered */
+}
