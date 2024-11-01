@@ -46,7 +46,7 @@ export const stories = [
     {
       profileImg: "./testimonial/assets/profile-6.webp",
       profileName: "Yolo",
-      title: ["Every shot shines!", "Moments made timeless!", "and developers"],
+      title: ["Every shot shines!", "timeless!", "Moments"],
       linkLabel: "Visit Site",
       linkSrc: "#",
       storyImg: "./testimonial/assets/story-6.webp",
